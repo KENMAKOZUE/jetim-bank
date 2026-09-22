@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gov-bg: #0A1118;
+  --color-gov-surface: #101B26;
+  --color-gov-card: #152232;
+  --color-gov-border: #233547;
+  --color-gov-borderAccent: #37536D;
+  --color-gov-accent: #2563EB;
+  --color-gov-accentHover: #1D4ED8;
+
+  --font-mono: 'Space Grotesk', monospace, sans-serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #0A1118;
+  color: #F1F5F9;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
