@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "firebase/auth";
 import { doc, setDoc, onSnapshot } from "firebase/firestore";
-import { auth, db } from "./firebase"; 
+import { auth, db } from "./Firebase"; 
 
 export default function App() {
   const [amount, setAmount] = useState(500000);
